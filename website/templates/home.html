@@ -1,0 +1,178 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="Academia de inglés B1 with english" content="" />
+        <meta name="Moisés Salas López" content="" />
+        <title>B1 with English</title>
+        <link rel="icon" type="image/x-icon" href="{% static 'website/assets/favicon.ico'%}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'website/css/styles.css'%}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top"><img src="{% static 'website/assets/img/logo.png'%}"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Cursos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">B1 with English</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">La academia que se adapta a ti para que aprendas y apruebes.</h2>
+                        <a class="btn btn-primary" href="#about">Descubrir mas</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">¿Cómo hacemos que apruebes y aprendas?</h2>
+                        <p class="text-white-50">
+                            Diseñamos un plan de estudios personalizado que se va adaptando a tus necesidades con la ayuda de nuestro profesorado, campus virtual, nuestro ebook, nuestras clases online o presenciales y la tecnología del Big Data.
+                        </p>
+                    </div>
+                </div>
+                <img class="img-fluid" src="{% static 'website/assets/img/ipad.png'%}" alt="..." />
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="{% static 'website/assets/img/bg-masthead.jpg'%}" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Ya esta aquí el Verano!!</h4>
+                            <p class="text-black-50 mb-0">Y nuestros cursos y clases con él, mas abajo tienes una breve explicación pero puedes dejarnos tu email
+                            o contactarnos sin ningún compromiso a través de nuestras redes sociales.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="{% static 'website/assets/img/demo-image-01.jpg'%}" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Intensivo 2 Semanas</h4>
+                                    <p class="mb-0 text-white-50">De Lunes a Viernes, por la tarde, de 17:00 a 20:00. Incluye: 30hrs de clases en directo, nuestro ebook, acceso al campus virtual y tu plan de estudios personalizado. Precio: 250€.</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="{% static 'website/assets/img/demo-image-02.jpg'%}" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Intensivo 1 Mes</h4>
+                                    <p class="mb-0 text-white-50">De Lunes a Viernes, por la mañana durante 2hrs, en el rango de 9:00 a 15:00. Incluye: 40hrs de clases en directo, nuestro ebook, acesso al campus virtual y tu plan de estudios personalizado. Precio: 280€.</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Signup-->
+        <section class="signup-section" id="signup">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">Si quieres saber mas, dejanos tu correo!</h2>
+                        <form class="form" id="contactForm" method="post">
+                            {% csrf_token %}
+                            <div class="row input-group-newsletter">
+                                <div class="col"><input class="form-control form-control-lg" id="emailAddress" name="email" type="email" placeholder="Escribe aqui tu email..." aria-label="Enter email address..."/></div>
+                                <div class="col-auto"><button class="btn btn-primary" id="submitButton" type="submit">Enviar!</button></div>
+                            </div>                                                                                   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="contact-section bg-black">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Dirección</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">Calle Ganado Nº23 1ºD, 11500, El Puerto de Santa María.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="#!">b1withenglish@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Teléfono</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">+34 603-702-724</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://www.instagram.com/b1.with.english/"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="mx-2" href="https://www.facebook.com/B1withEnglish/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="https://api.whatsapp.com/message/4GWAONGZ3EYLP1?autoload=1&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </section>                 
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; B1 with English 2022</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'website/js/scripts.js'%}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>       
+    </body>
+</html>
